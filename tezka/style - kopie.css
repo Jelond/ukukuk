@@ -1,6 +1,6 @@
 body {
 background-color: black;
-height: 200vw;
+height: 560px;
 background-image: linear-gradient(black, purple);
 color: white;
 font-family: Tahoma, Verdana, sans-serif;;
@@ -9,7 +9,7 @@ font-size: 20px;
 
 .menu {
 position: absolute;
-width: 360px;
+width: 320px;
 top: 50%;
 left: 50%;
 transform: translate( -50%, -50%);
@@ -18,9 +18,8 @@ transform: translate( -50%, -50%);
 .polozka {
 
 border: 2px solid white;
-max-width: 350px;
-line-height: 0.2;
-font-size: 30px;
+max-width: 300px;
+line-height: 0.1;
 text-align: center;
 margin: 5px auto;
 border-radius: 2em;
@@ -28,7 +27,7 @@ cursor: pointer;
 }
 
 .modra {
-color: rgb(105,155,255);
+color: rgb(135,135,255);
 }
 
 .zluta {
