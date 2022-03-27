@@ -38,5 +38,35 @@ animation: mymove 10s infinite;
 100% {opacity: 0;}
 }
 
+.owl {
+position: absolute;
+width: 30%;
+left: 30%;
+top: 30%;
+animation: owl 10s infinite;
+}
+
+@keyframes owl {
+  0% {opacity: 0;}
+  70% {opacity: 0;}
+  80% {opacity: 1;}
+90% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+.parrot {
+position: absolute;
+width: 30%;
+left: 10%;
+top: 50%;
+animation: parrot 10s infinite;
+}
+
+@keyframes parrot {
+  0% {opacity: 0;}
+  80% {opacity: 0;}
+90% {opacity: 1;}
+100% {opacity: 0;}
+}
 
 {}
