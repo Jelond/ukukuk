@@ -1,0 +1,42 @@
+body {
+background-color: black;
+color: white;
+}
+
+.container {
+position: absolute;
+border: 2px solid white;
+width: 720px;
+height: 1280px;
+left: 50%;
+transform: translate(-50%);
+}
+
+.dog {
+position: absolute;
+width: 30%;
+left: 50%;
+top: 50%;
+animation: mymove 10s infinite;
+}
+
+.cat {
+position: absolute;
+width: 30%;
+left: 10%;
+top: 10%;
+animation: mymove 10s infinite;
+}
+
+
+
+@keyframes mymove {
+  0% {opacity: 0;}
+  10% {opacity: 0;}
+20% {opacity: 1;}
+40% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+
+{}
