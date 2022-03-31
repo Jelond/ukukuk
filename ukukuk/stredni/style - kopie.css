@@ -1,6 +1,6 @@
 body {
 background-color: black;
-height: 130vh;
+height: 200vw;
 background-image: linear-gradient(black, purple);
 color: white;
 font-family: Tahoma, Verdana, sans-serif;;
@@ -10,8 +10,9 @@ font-size: 20px;
 .menu {
 position: absolute;
 width: 360px;
+top: 70%;
 left: 50%;
-transform: translate( -50%);
+transform: translate( -50%, -50%);
 }
 
 .polozka {
