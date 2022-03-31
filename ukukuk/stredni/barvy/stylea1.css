@@ -1,0 +1,124 @@
+body {
+background:
+url('vesmir.jpg'),
+url('vesmir.jpg');
+color: yellow;
+background-repeat: no-repeat;
+background-position: left 0% top 0px, left 649px top 0px;
+font-family: Tahoma, Verdana, sans-serif;
+font-size: 16px;
+}
+
+.container {
+border: 3px solid black;
+border-radius: 10px;
+width: 60%;
+padding: 20px;
+display: none;
+box-shadow: 0px 0px 10px 1px yellow;
+}
+
+button {
+width: 110px;
+margin-top: 10px;
+margin-right: 10px;
+color: yellow;
+background-color: black;
+border: 1px solid black;
+font-size: 18px;
+padding: 7px;
+box-shadow: 0px 0px 3px 1px yellow;
+transition-duration: 0.4s;
+cursor: pointer;
+border-radius: 10%;
+} 
+
+#stopwatch
+{
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+position: fixed;
+bottom: 10px;
+right: 10px;
+width: 300px;
+height: 50px;
+border: 3px solid #73AD21;
+}
+
+button:hover {
+text-shadow: 0px 0px 3px yellow;
+}
+
+.display  {
+border: none;
+background: white;
+border-radius: 10px;
+width: 600px;
+font-size: 30px;
+font-family: sans-serif;
+font-weight: 300;
+height: 30px;
+margin: auto;
+border: 2px solid white;
+color: black;
+margin: 10px 0px;
+}
+
+.tajenka {
+font-size: 20px;
+display: block;
+}
+
+.parent 
+{
+text-align: center;
+justify-content: center;
+}
+
+.menu
+{
+display: block;
+padding: 10px;
+width: 400px;
+heigth: 60px;
+background-color: black;
+border: 2px solid white;
+font-size: 25px;
+}
+
+.menu:hover {
+background-color: purple;
+color: yellow;
+cursor: pointer;
+transition: background-color 0.25s, color 0.5s;
+}
+
+a:visited {
+  color: yellow;
+}
+
+.reproduktor {
+height: 50px;
+width: 50px;
+border-radius: 50%;
+}
+
+.container::after {
+position: absolute;
+z-index: 2;
+display: none;
+max-width: 600px;
+padding: 10px;
+font-size: 1.125em;
+line-height: 1.4em;
+border-radius: 20px;
+background-color: rgba(0,0,0,0.8);
+color: white;
+content: attr(title);
+}
+
+.container:hover::after {
+display: inline-block;
+}

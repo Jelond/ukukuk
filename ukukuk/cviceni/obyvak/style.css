@@ -1,0 +1,30 @@
+body {
+  background-color:rgb(63, 42, 13);
+color:rgb(255, 232, 117);
+}
+
+
+area {cursor: pointer;}
+
+.text {
+position: absolute;
+color: white;
+background-color: transparent;
+font-size: 30px;
+text-shadow: 0 0 5px black;
+top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-shadow: 0px 0px 10px black, 0px 0px 10px black,0px 0px 10px black,0px 0px 10px black,0px 0px 10px black,0px 0px 10px black,0px 0px 10px black,0px 0px 10px black,0px 0px 10px black,0px 0px 10px black;
+animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  0% {opacity: 0;}
+  10% {opacity: 0;}
+20% {opacity: 1;}
+40% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+{}
